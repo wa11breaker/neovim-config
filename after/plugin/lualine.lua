@@ -32,7 +32,7 @@ local filename = {
 
 local diagnostics = {
     'diagnostics',
-    update_in_insert = false,
+    update_in_insert = true,
     symbols = { error = " ", warn = " ", hint = " ", info = " " },
 }
 
