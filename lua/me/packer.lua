@@ -40,11 +40,7 @@ return require('packer').startup(function(use)
     use { 'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim' }
 
     -- terminal
-    use {
-        "akinsho/toggleterm.nvim",
-        version = "*",
-        config = function() require "plugins/toggleterm" end,
-    }
+    -- use { "akinsho/toggleterm.nvim", }
 
     -- Git
     use {

@@ -3,6 +3,7 @@ local map = vim.keymap.set
 
 map('n', '<leader>sf', builtin.find_files, {})
 map('n', '<leader>sw', builtin.live_grep, {})
+map('n', "<leader>dl", "<cmd>Telescope diagnostics<cr>", {})
 
 local actions = require('telescope.actions')
 require('nvim-web-devicons').setup({

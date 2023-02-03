@@ -1,5 +1,8 @@
-local plugin = require "toggleterm"
+local ok, toggleTerm = pcall(require, "toggleterm")
+if not ok then
+    return
+end
 
-plugin.setup {
+toggleTerm.setup {
     shade_terminals = false,
 }

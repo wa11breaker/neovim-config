@@ -16,7 +16,7 @@ end
 function LoadOneDark()
     require('onedark').setup {
         style = 'warm',
-        transparent = true, -- Show/hide background
+        transparent = false, -- Show/hide background
         code_style = {
             comments = 'italic',
             keywords = 'none',
